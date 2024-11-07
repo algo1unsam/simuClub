@@ -132,9 +132,6 @@ describe "Evaluaciones."{
 	  test "evaluacion actividad social"  {
 		assert.equals(100 , tango.evaluar())
 	}
-	  test "Evaluacion club Tradicional"  {
-		//assert.equals(-2500 , unClubTradicional.evaluar())
-	}
 	  test "Evaluacion club Profesional"  {
 		assert.equals(115 , unClubProfesional.evaluar())
 	}
